@@ -1,0 +1,141 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #1F2937;
+    align-items: center;
+
+}
+
+.container{
+    width: 1300px;
+}
+
+/* TOP SECTION */
+
+.top-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    gap: 150px;
+    padding-bottom: 100px;
+}
+
+/* NAVBAR */
+
+.nav-bar{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-size: 24px;
+    padding: 10px 3px;
+}
+
+
+.links{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 3px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+/* HEADING */
+
+.heading{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title{
+    color: white;
+    font-size: 58px;
+    font-weight: 1000;
+}
+
+.title-subtitle{
+    font-size: 20px;
+    color: white;
+
+}
+
+button {
+color: white;
+background-color: blue;
+border-radius: 12px;
+padding: 10px;
+  }
+
+.image{
+    height: auto;
+    width: 600px;
+}
+
+
+/* SQUARE SECTION */
+
+.squares{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.square-title{
+    font-size: 36px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.cubes{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.cube{
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 14px;
+    border-color: blue;
+
+}
+
+.cube-image{
+    height: 150px;
+    width: 150px;
+}
+
+.cubes-subtitles{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.subtext{
+    width: 150px;
+    text-align: center;
+}
