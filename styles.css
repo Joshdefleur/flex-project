@@ -183,3 +183,17 @@ padding: 10px;
     color: white;
     border-radius: 14px;
 }
+
+
+/* COPYRITE */
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.copyright-write{
+    color: white;
+}
